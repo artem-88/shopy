@@ -1,0 +1,96 @@
+/*////////////// FILTERS ////////////////////////*/
+.page-catalog-products .main-header{
+	background: #FFF;
+	border-bottom: 1px solid #F0F2F4;
+	margin-bottom: 118px;	
+}
+.filters-menu{
+	width:270px;
+}
+.filters-menu ul{
+	padding:0;
+	margin:0;
+	margin-top:35px;
+}
+.catalog-navigation{
+	background-color: #FFFFFF;
+	padding: 35px;
+	padding-bottom: 5px;
+}
+.catalog-navigation a{
+	font-family:Harmonia Sans SemiBd;
+	color:#43515D;
+}
+.catalog-navigation li{
+	list-style-type:none;
+  margin-bottom: 32px;	
+}
+.catalog-colums .carusel-goods{
+	width:870px;
+	margin-top:0;
+}
+.catalog-colums .bx-viewport {
+  margin: 0 0 80px 0;
+}
+.filter ul{
+	padding: 0px 12px;
+	margin-top:25px;
+}
+.filter fieldset{
+	border:none;
+}
+.filter fieldset legend{
+	font:18px Harmonia Sans Black;
+	color:#FF7013;
+}
+.catalog-navigation__title{
+	font:18px Harmonia Sans Black;
+	color:#FF7013;
+	
+}
+.filter-option{
+	list-style-type:none;
+	padding-left: 14px;
+	margin-bottom:30px;
+}
+.filter-option label {
+	font-family:Harmonia Sans SemiBd;
+	position: relative;
+	display: block;
+	cursor: pointer;
+	user-select: none;
+}
+.filter-input-checkbox + label::before {
+	content: "";
+	position: absolute;
+	left: -27px;
+	top: 4px;
+	width: 13px;
+	height: 13px;
+	background-color:#F1F3F5;
+}
+.filter-input-checkbox:checked + label::after {
+	content: "";
+	position: absolute;
+	left: -27px;
+	top: 4px;
+	width: 13px;
+	height: 13px;
+	box-shadow:inset 0px 0px 0px 4px #FF7013;
+}
+.filter-sizes{
+	margin:30px 0;
+}
+.filter-sizes, .filter-brands{
+	background-color:#FFFFFF;
+	padding: 35px 26px 26px;
+}
+.page-catalog-products .slider .goods-item_block{
+	margin-bottom:30px;
+}
+.page-catalog-products .catalog-colums .bx-viewport {
+  margin: 0 0 10px 0;
+}
+.page-catalog-products .sale {
+	margin-top: 132px;
+}

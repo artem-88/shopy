@@ -1,0 +1,174 @@
+.page-catalog-products .main-container{
+	background-color: #ffffff;
+}
+.page-catalog-products .catalog-colums{
+	padding:102px 0 125px;
+	justify-content:flex-start;
+}
+.product-photos{
+	width:330px;
+	padding:0 5px;
+	text-align:center;
+}
+.product-photo-full{
+	margin:0;
+}
+.product-photo-preview{
+	display: flex;
+	justify-content: space-between;		
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-top: 55px;
+}
+.product-info{
+	width:630px;
+	padding:0 10px;
+  margin-left: 70px;	
+	box-sizing:border-box;
+}
+.product-info-block{
+	width:530px;
+}
+.product-title{
+	font: 52px Harmonia Sans Black;
+	text-transform: uppercase;
+	color: #FF7013;
+	margin: 0;
+	margin-top: -11px;
+	line-height: 1;
+}
+.product-info-block .description{
+	line-height:2;
+}
+.product-info-block .collection{
+	margin-bottom:20px;
+}
+.size-quantity{
+	font-family:Harmonia Sans SemiBd;
+	display: flex;
+	justify-content: space-between;
+	border-top:1px solid #F1F2F4;
+	border-bottom:1px solid #F1F2F4;
+	padding:35px 0;
+  margin-top: 35px;	
+}
+.size ul{
+	font-size:14px;
+	list-style: none;
+	display: inline-flex;
+	padding: 0;
+	margin: 0 30px;
+}
+.size ul li{
+	width: 20px;	
+	height:20px;
+	margin: 0;
+	cursor: pointer;
+	text-transform: uppercase;
+	text-align: center;
+}
+.size ul li:hover{
+	font-size:18px;
+	color:#FF7013;
+	margin-top:-4px;
+}
+.quantity{
+	display:flex;
+}
+.quantity p{
+	margin:0;
+	margin-right:18px;
+}
+.quantity button{
+	width:18px;
+	border:0;
+	padding:0;
+	background:transparent;
+	cursor:pointer;
+}	
+.quantity input{
+	text-align:center;
+	width:30px;
+	border:0;
+  margin: 0 1px;
+}
+.quantity input::-webkit-outer-spin-button,
+.quantity input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.product-info .price-cart{
+	display:flex;
+	justify-content:space-between;
+  align-items: center;
+  margin-top: 40px;	
+}
+.product-info .price-cart .price{
+	font:20px Harmonia Sans Black;
+}
+.price-cart .block-like{
+	width: 122px;
+	padding: 0 10px;
+  margin-right: 15px;
+}
+.price-cart .cart{
+	display: flex;
+	align-items: center;	
+}
+.price-cart button{
+	font: 18px Harmonia Sans SemiBd;
+	border: 0;
+	background-color: #FF7013;
+	color: #FFFFFF;
+	height: 50px;
+	padding: 0 25px;
+	border-radius: 50px;
+	cursor:pointer;
+}
+.related_products .goods-item_block{
+	width: 270px;
+}
+.related_products .product-list{
+	display:flex;
+	justify-content:space-between;
+}
+.related_products header{
+	text-align:center;
+  margin: 110px 0 80px;	
+}
+.related_products h2{
+	font: 28px Harmonia Sans Black;
+	text-transform: uppercase;
+	margin: 0 0 18px 0;
+}
+.related_products span{
+	color:#FF7013;
+}
+.goods-item img {
+  margin: 0 auto;
+}
+.related_products .good-price{
+	font: 18px Harmonia Sans Bold;
+	color: #ff7013;
+}
+.related_products .good-title{
+	font: 18px Harmonia Sans Bold;
+	color: #43515d;
+	margin: 23px 0;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
